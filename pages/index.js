@@ -1,65 +1,66 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <>
+    <section className="w3l-coming-soon-page">
+  <div className="coming-page-infohny">
+    <div className="wrapper">
+      <div className="header">
+        <div className="logo">
+          <a className="brand-logo" href="index.html">Alive.</a>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+        <div className="w3lhny-button text-right">
+          <a className="alive-btn" href="index.html">Download</a>
+        </div>
+      </div>
+      <div className="coming-block">
+        <h1>Coming Soon</h1>
+        <h2 className="parahny">Our Website Coming in 2021</h2>
+      </div>
+      <div className="alive-bottom">
+        <div className="countdown">
+          <h6>Launching In</h6>
+          <div className="countdown__days">
+            <div className="number" />
+            <span className>Days</span>
+          </div>
+          <div className="countdown__hours">
+            <div className="number" />
+            <span className>Hours</span>
+          </div>
+          <div className="countdown__minutes">
+            <div className="number" />
+            <span className>Minutes</span>
+          </div>
+          <div className="countdown__seconds">
+            <div className="number" />
+            <span className>Seconds</span>
+          </div>
+        </div>
+        <div className="copyright-footer ">
+          <div className="w3lhny-socialicons">
+            <ul className="social">
+              <li><h6>Follow Us :</h6></li>
+              <li><a href="#facebook"><span className="fa fa-facebook" aria-hidden="true" /></a></li>
+              <li><a href="#linkedin"><span className="fa fa-linkedin" aria-hidden="true" /></a></li>
+              <li><a href="#twitter"><span className="fa fa-twitter" aria-hidden="true" /></a></li>
+              <li>
+                <a href="#instagram" className="linkedin"><span className="fa fa-instagram" /></a>
+              </li>
+              <li>
+                <a href="#linkedin" className="linkedin"><span className="fa fa-linkedin" /></a>
+              </li>
+            </ul>
+          </div>
+          <p>© 2021 Alive Coming Soon. Made with <span className="fa fa-heart" /> | Designed by <a href="https://w3layouts.com" target="_blank">W3layouts</a></p>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+    </>
   )
 }
