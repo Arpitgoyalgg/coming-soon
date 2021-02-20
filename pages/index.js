@@ -16,7 +16,7 @@ export default function Home() {
         </div>
       </div>
       <div className="coming-block">
-        <h1>Coming Soon</h1>
+        <h1>Coming Soon Hello from aman</h1>
         <h2 className="parahny">Our Website Coming in 2021</h2>
       </div>
       <div className="alive-bottom">
